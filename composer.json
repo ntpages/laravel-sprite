@@ -1,0 +1,39 @@
+{
+	"name": "ntpages/laravel-sprite",
+	"description": "Laravel SVG Sprite generator",
+	"keywords": [
+		"laravel",
+		"assets",
+		"sprite",
+		"svg"
+	],
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Anton Stasyuk",
+			"email": "anton@ntpages.com.au",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.4|^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Ntpages\\LaravelSprite\\": "./src"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Ntpages\\LaravelSprite\\SpriteProvider"
+			]
+		}
+	}
+}
